@@ -6,11 +6,6 @@ export default defineNuxtConfig({
     ['@nuxtjs/algolia', {
       apiKey: '0fd1c4eba2f831788333e77c9d855f1d',
       applicationId: 'AGN9HUEKF3',
-      lite: false, // by default set to 'true',
-      instantSearch: {
-        theme: 'algolia'
-      },
-      recommend: true
     }]
   ],
 })
