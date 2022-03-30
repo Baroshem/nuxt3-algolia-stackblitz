@@ -4,8 +4,13 @@ import { defineNuxtConfig } from 'nuxt3'
 export default defineNuxtConfig({
   buildModules: [
     ['@nuxtjs/algolia', {
-      apiKey: '<YOUR_SEARCH_API_KEY>',
-      applicationId: '<YOUR_APPLICATION_ID>'
+      apiKey: '0fd1c4eba2f831788333e77c9d855f1d',
+      applicationId: 'AGN9HUEKF3',
+      lite: false, // by default set to 'true',
+      instantSearch: {
+        theme: 'algolia'
+      },
+      recommend: true
     }]
   ],
 })
