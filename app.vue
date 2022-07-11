@@ -7,7 +7,7 @@
 </template>
 
 <script setup>
-const { result, search } = useSearch('test_index'); // pass your index as param
+const { result, search } = useAlgoliaSearch('test_index'); // pass your index as param
 onMounted(async () => {
   await search({
     query: 'Samsung',
